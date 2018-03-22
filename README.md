@@ -111,3 +111,4 @@ execute sp_deleteSpamRecords last_name
 
 #### This is how you will be able to find and remove duplicate records.
 
+#### Link for github branch: (https://github.com/anmol242/Analytics)
