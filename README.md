@@ -76,6 +76,9 @@ WHERE RowNumber != 1
 SELECT count(*)
 FROM [dbo].[Deduplication Problem - Sample Dataset]
 ```
+**See the output**
+
+![o9](https://user-images.githubusercontent.com/37592944/37763765-f1df679c-2de5-11e8-86b7-4a47595d8439.PNG)
 
 **Since the above query deletes the full duplicate records means that records that match exactly column by column. But to remove spam
 records that we can only remove them manually.
