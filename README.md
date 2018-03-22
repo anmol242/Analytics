@@ -76,6 +76,8 @@ WHERE RowNumber != 1
 SELECT count(*)
 FROM [dbo].[Deduplication Problem - Sample Dataset]
 ```
+**For above run query Analytics_Script_1.sql**
+
 **See the output**
 
 ![o9](https://user-images.githubusercontent.com/37592944/37763765-f1df679c-2de5-11e8-86b7-4a47595d8439.PNG)
@@ -89,6 +91,8 @@ records that we can only remove them manually.
 ```
 execute sp_deleteSpamRecords last_name
 ```
+
+**For above run query sp_deleteSpamRecords_Script2.sql**
 			
 #### **3. Export data from local database to flat file**
 	
